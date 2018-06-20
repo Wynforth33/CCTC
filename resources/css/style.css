@@ -10,3 +10,53 @@ white: rgb(255,255,255);
  */
 
 /* Universal Styles */
+a {
+  color: rgb(255,255,255);
+}
+
+.btn-success {
+  background-color: rgb(89, 201, 231);
+  border-color: rgb(26, 130, 158);
+}
+
+
+/* Header Section */
+.bg-primary {
+  background-color: rgb(40,69,98);
+}
+
+a.navbar-brand {
+  font-weight: bold;
+  color: rgb(235,28,36);
+}
+
+/* Hero Section */
+#hero {
+  background: url('../img/hero-bg.jpeg') 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 810px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#hero .overlay {
+  min-height: 810px;
+  width: 100%;
+  padding: 20% 0;
+  background-color: rgba(0,0,0,.25);
+}
+
+/* Opt In Section */
+#opt-in {
+  background: #3e4249;
+  padding: 20px 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 1.2em;
+}
+
+#opt-in p {
+  margin: 7px 0 0 0;
+}

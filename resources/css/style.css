@@ -14,11 +14,26 @@ a {
   color: rgb(255,255,255);
 }
 
+li.active a {
+  color: rgb(235,28,36);
+}
+
 .btn-success {
   background-color: rgb(89, 201, 231);
   border-color: rgb(26, 130, 158);
 }
 
+.btn-success:hover {
+  background-color: rgb(26, 130, 158);
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    border: 1px solid rgb(235,28,36);
+    border-radius: 5px;
+    background-color: rgb(40,69,98);
+    color: white;
+}
 
 /* Header Section */
 .bg-primary {

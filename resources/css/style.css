@@ -14,6 +14,10 @@ a {
   color: rgb(255,255,255);
 }
 
+div {
+  border: 1px solid black;
+}
+
 img {
   max-width: 100%;
 }
@@ -29,6 +33,15 @@ li.active a {
 
 .btn-success:hover {
   background-color: rgb(26, 130, 158);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
@@ -68,18 +81,18 @@ a.navbar-brand {
   align-items: center;
   min-height: 805px;
   width: 100%;
-  padding: 14% 0;
   background-color: rgba(0,0,0,.25);
 }
 
-#hero .row {
+#hero .content {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 
-
 #hero img {
-  padding: 30px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 100%;
   background-color: rgba(40,69,98,0.75);
@@ -101,4 +114,45 @@ a.navbar-brand {
 
 #opt-in p {
   margin: 7px 0 0 0;
+}
+
+/* 'SignUp' Section */
+#signup {
+  text-align: center;
+  background: url('../img/hero-bg.jpeg') center center repeat fixed;
+  background-size: cover;
+  color: white;
+  padding: 140px 0;
+}
+
+#signup h2 {
+  font-weight: normal;
+}
+
+#signup h2 strong {
+  border-bottom: solid 2px #dd5638;
+}
+
+#signup .btn {
+  font-size: 24px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a:link, footer a:visited {
+  color: white;
+}
+
+footer a:hover {
+  color: #dd5638;
+}
+
+footer li.signup-link a {
+  color: #dd5638;
+}
+
+footer li.signup-link a:hover {
+  font-weight: bold;
 }

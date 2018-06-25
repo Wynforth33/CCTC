@@ -11,7 +11,7 @@
   <!-- Favicon -->
   <link rel="icon" href="./resources/img/favicon.ico">
 
-  <title>Computer Concierge Twin cities</title>
+  <title>Computer Concierge | Twin cities</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="./resources/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,10 @@
 </head>
 
 <body>
-  <!-- Header Section -->
+
+<!-- Main Window -->
+  <!-- Header
+  ========================================================================== -->
   <header class="site-header" role="banner">
 
     <!-- NavBar -->
@@ -63,141 +66,163 @@
     </div><!-- .navbar-wrapper -->
   </header>
 
-  <!-- Hero Section -->
-  <section id="hero" data-type="background" data-speed="3">
+  <!-- Hero - Alpha Section
+  ========================================================================== -->
+  <section id="alpha" data-type="background" data-speed="3">
     <div class='overlay'>
       <div class="container clearfix">
-        <div class="content">
+        <div class="row">
+
           <!-- Company Logo -->
-          <div class="" id="logo">
+          <div class="col-sm-5 flex" id="logo">
+            <img src="./resources/img/CCTC.logo_big.png" alt="Computer Concierge Logo">
           </div>
+
           <!-- Attention Grabber -->
-          <div id="hero-text">
+          <div class="col-sm-7" id="hero-text">
+            <h1>Hero Title</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit assumenda, ipsum omnis odit delectus soluta, sunt repellendus consectetur sequi blanditiis magni repellat perspiciatis. Amet inventore dolorem explicabo, necessitatibus iste. Nisi!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe tenetur eum, quod dolor excepturi maiores ab sunt, quibusdam odit minima distinctio pariatur accusamus iusto asperiores at, repellat laboriosam voluptate sed!</p>
           </div>
+
         </div>
       </div>
     </div><!-- .overlay -->
   </section>
 
-  <!-- Check it out Top-->
-  <section id="opt-in">
+  <!-- Services - link to Page
+  ========================================================================== -->
+  <section class="link" id="services">
     <div class="container">
       <div class="row">
+
+        <!-- Call to Action Statement -->
         <div class="col-sm-8">
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio non placeat accusamus voluptates ab molestiae autem optio pariatur maxime provident impedit.</p>
-        </div> <!-- .col-sm-8 -->
+          <p class="lead">This is a call to Action statement, which will tell the user why they should click the button!</p>
+        </div><!-- .col-sm-8 -->
+
+        <!-- Link Button -->
         <div class="col-sm-4">
-          <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-            Click Me!
-          </button>
-        </div> <!-- .col-sm-4 -->
-      </div> <!-- .row -->
-    </div> <!-- .container -->
+          <a class="btn btn-success btn-lg btn-block" href="/">Link to Services Page!</a>
+        </div><!-- .col-sm-4 -->
+
+      </div><!-- .row -->
+    </div><!-- .container -->
   </section>
 
-  <!-- About Us Section -->
+
+
+<!-- Main Content -->
+  <!-- About Us
+  ========================================================================== -->
   <section id="about">
     <div class="container flex-column">
 
-      <!-- Section Content -->
-      <div class="section-content">
+      <!-- Header -->
+      <div class="section-header">
         <h2>About Us</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita eos est dolorem deserunt quam. Earum libero mollitia aut iusto, dicta illum, ad nam rem, quaerat voluptas nisi distinctio sint cum!</p>
+        <p class="lead">This section describes who we are!</p>
         <hr />
+      </div><!-- .section-header -->
 
-        <div class="row">
-          <div class="col-sm-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam, nesciunt dignissimos ipsam suscipit perferendis minima vero excepturi sed vel, dolore necessitatibus corrupti repellendus soluta cum repellat adipisci repudiandae. Quis!</p>
-          </div>
-          <div class="col-sm-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam, nesciunt dignissimos ipsam suscipit perferendis minima vero excepturi sed vel, dolore necessitatibus corrupti repellendus soluta cum repellat adipisci repudiandae. Quis!</p>
-          </div>
-        </div>
-      </div>
-    </div>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam, nesciunt dignissimos ipsam suscipit perferendis minima vero excepturi sed vel, dolore necessitatibus corrupti repellendus soluta cum repellat adipisci repudiandae. Quis!</p>
+        </div><!-- .col-sm-6 -->
+
+        <div class="col-sm-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam, nesciunt dignissimos ipsam suscipit perferendis minima vero excepturi sed vel, dolore necessitatibus corrupti repellendus soluta cum repellat adipisci repudiandae. Quis!</p>
+        </div><!-- .col-sm-6 -->
+      </div><!-- .row -->
+
+
+    </div><!-- .container -->
   </section>
 
-  <!-- Why Us? Section-->
-  <section id="whyus">
+  <!-- Why Us
+  ========================================================================== -->
+  <section id="why">
     <div class="container flex-column">
 
-      <!-- Section Content -->
-      <div class="section-content">
+      <!-- Header -->
+      <div class="section-header">
          <h2>Why you should Choose Us</h2>
-         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea pariatur suscipit minus asperiores, voluptates aspernatur nulla quia ut sunt velit possimus voluptas magni, inventore, eligendi, placeat amet quibusdam! Mollitia, tempore.</p>
+         <p class="lead">This Section describes why you should choose Us.</p>
          <hr />
       </div>
 
-      <!-- Features -->
+      <!-- Content - Features (Custom Posts) -->
       <div class="row" id="features">
 
         <!-- feature -->
         <div class="col-sm-3 feature">
-          <img src="/" alt="/" />
-          <h3>Feature Title</h3>
+          <img src="./resources/img/tools.svg" alt="Icon of two tools" />
+          <h3>Outstanding Service</h3>
         </div>
 
         <!-- feature -->
         <div class="col-sm-3 feature">
-          <img src="/" alt="/" />
-          <h3>Feature Title</h3>
+          <img src="./resources/img/chart.svg" alt="Icon of A Growth Chart" />
+          <h3>Grow Your Business</h3>
         </div>
 
         <!-- feature -->
         <div class="col-sm-3 feature">
-          <img src="/" alt="/" />
-          <h3>Feature Title</h3>
+          <img src="./resources/img/phone.svg" alt="Icon of a phone" />
+          <h3>24/7 Help Desk</h3>
         </div>
 
         <!-- feature -->
         <div class="col-sm-3 feature">
-          <img src="/" alt="/" />
-          <h3>Feature Title</h3>
+          <img src="./resources/img/pricetag.svg" alt="Icon of a Price Tag" />
+          <h3>No Hidden Costs</h3>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- Solutions Sections -->
+  <!-- Solutions Section
+  ========================================================================== -->
   <section id="solutions">
     <div class="container-fluid flex-column">
 
-      <!-- Section Content -->
-      <div class="section-content">
+      <!-- Header -->
+      <div class="section-header">
         <h2>Our It Solutions</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea pariatur suscipit minus asperiores, voluptates aspernatur nulla quia ut sunt velit possimus voluptas magni, inventore, eligendi, placeat amet quibusdam! Mollitia, tempore.</p>
+        <p class="lead">This Section Features our IT solutions</p>
         <hr />
       </div>
 
-      <!-- Solutions -->
+      <!-- Content - Solutions (Custom Posts) -->
       <div class="row" id="solutions">
 
         <!-- Solution -->
         <div class="col-sm-3 solution">
           <div class="overlay">
-            <img src="/" alt="/">
+            <img src="./resources/img/pictures6.jpeg" alt="/">
           </div>
         </div>
 
         <!-- Solution -->
         <div class="col-sm-3 solution">
           <div class="overlay">
-            <img src="/" alt="/">
+            <img src="./resources/img/cloud.jpeg" alt="/">
           </div>
         </div>
 
         <!-- Solution -->
         <div class="col-sm-3 solution">
           <div class="overlay">
-            <img src="/" alt="/">
+            <img src="./resources/img/laptop.jpeg" alt="/">
           </div>
         </div>
 
         <!-- Solution -->
         <div class="col-sm-3 solution">
           <div class="overlay">
-            <img src="/" alt="/">
+            <img src="./resources/img/network.jpeg" alt="/">
           </div>
         </div>
 
@@ -205,45 +230,43 @@
     </div>
   </section>
 
-  <!-- Hours Section -->
+  <!-- Hours
+  ========================================================================== -->
   <section id="hours">
     <div class="container flex-column">
 
-      <!-- Section Header -->
+      <!-- Header -->
       <div class="section-header">
-        <!-- Section Title -->
         <h2>Business Hours</h2>
-        <!-- Section Description -->
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea pariatur suscipit minus asperiores, voluptates aspernatur nulla quia ut sunt velit possimus voluptas magni, inventore, eligendi, placeat amet quibusdam! Mollitia, tempore.</p>
+        <p class="lead">This Sections Presents our Business Hours</p>
         <hr />
       </div>
 
-      <!-- Section Content -->
+      <!-- Content - Hours / Phone # -->
       <div class="info flex">
         <div class="hours">
-          Content Here
+          Our Business hours
         </div>
         <div class="phone">
-          Content Here
+          Our Phone/Email Information
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Us Section -->
+  <!-- Contact Us
+  ========================================================================== -->
   <section id="contact">
     <div class="container flex-column">
 
-      <!-- Section Header -->
+      <!-- Header -->
       <div class="section-header">
-        <!-- Section Title -->
         <h2>Contact Us</h2>
-        <!-- Section Description -->
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea pariatur suscipit minus asperiores, voluptates aspernatur nulla quia ut sunt velit possimus voluptas magni, inventore, eligendi, placeat amet quibusdam! Mollitia, tempore.</p>
+        <p class="lead">This Section Provides a Map which will provide directions to our location; also, provides a form to contact us via Email!</p>
         <hr />
       </div>
 
-      <!-- Section Content -->
+      <!-- Section Content - MapBox and Contact Form -->
       <div class="row">
 
         <!-- MapBox -->
@@ -288,63 +311,35 @@
         <div class="col-sm-8">
           Form Goes Here
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Check it out bottom -->
-  <section id="opt-in">
+
+
+<!-- Footer (Will be Footer.php) -->
+  <!-- Newsletter - link to Modal
+  ========================================================================== -->
+  <section class="link" id="services">
     <div class="container">
       <div class="row">
+
+        <!-- Call to Action Statement  -->
         <div class="col-sm-8">
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio non placeat accusamus voluptates ab molestiae autem optio pariatur maxime provident impedit.</p>
+          <p class="lead">This is a call to Action statement, which will tell the user why they should click the button!</p>
         </div> <!-- .col-sm-8 -->
+
+        <!-- Link Button  -->
         <div class="col-sm-4">
           <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-            Click Me!
+            Link to Modal - Newsletter Signup.
           </button>
         </div> <!-- .col-sm-4 -->
+
       </div> <!-- .row -->
     </div> <!-- .container -->
   </section>
-
-  <!-- Signup
-  ========================================================================== -->
-  <section id="signup" data-type="background" data-speed="4">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 offset-sm-3">
-            <h2>Get the help you need <strong>Now</strong>!</h2>
-            <p><a href="#" class="btn btn-lg btn-block btn-success">Click Me!</a></p>
-          </div> <!-- .col-sm-6 offset-sm-3 -->
-        </div> <!-- .row -->
-      </div> <!-- .container -->
-    </div>
-  </section>
-
-  <!-- Footer Section -->
-  <footer>
-    <div class="container">
-      <div class="col-sm-3">
-        <p><a href="index.html">Computer Concierge Twin Cities</a></p>
-      </div> <!-- .col-sm-3 -->
-      <div class="col-sm-6">
-        <nav>
-          <ul class="list-unstyled list-inline">
-            <li class="list-inline-item"><a href="/">Home</a></li>
-            <li class="list-inline-item"><a href="/">Services</a></li>
-            <li class="list-inline-item"><a href="/">Resources</a></li>
-            <li class="list-inline-item"><a href="/">Contact Us</a></li>
-            <li class="list-inline-item signup-link"><a href="/">Sign up now</a></li>
-          </ul>
-        </nav>
-      </div> <!-- .col-sm-6 -->
-      <div class="col-sm-3">
-        <p class="pull-right">&copy; 2018 James Edwards III</p>
-      </div> <!-- .col-sm-3 -->
-    </div> <!-- .container -->
-  </footer>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal">
@@ -376,6 +371,49 @@
       </div> <!-- .modal-content -->
     </div> <!-- .modal-dialog -->
   </div> <!-- .modal -->
+
+  <!-- Hero - Omega
+  ========================================================================== -->
+  <section class="flex" data-type="background" data-speed="4" id="omega">
+    <div class="overlay">
+      <div class="container flex">
+        <div class="row flex">
+
+          <div class="col-sm-8 offset-sm-2 hero-text">
+            <h2>Get the help you need <strong>Now</strong>!</h2>
+            <p><a href="#" class="btn btn-lg btn-block btn-success">link To services Page.</a></p>
+          </div> <!-- .col-sm-8 offset-sm-2 -->
+
+        </div> <!-- .row -->
+      </div> <!-- .container -->
+    </div><!-- .overlay -->
+  </section>
+
+  <!-- Footer
+  ========================================================================== -->
+  <footer>
+    <div class="container">
+      <div class="col-sm-3">
+        <p><a id="brand" href="index.html">Computer Concierge Twin Cities</a></p>
+      </div> <!-- .col-sm-3 -->
+      <div class="col-sm-6">
+        <nav>
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item"><a href="/">Home</a></li>
+            <li class="list-inline-item"><a href="/">Services</a></li>
+            <li class="list-inline-item"><a href="/">Resources</a></li>
+            <li class="list-inline-item"><a href="/">Contact Us</a></li>
+            <li class="list-inline-item signup-link"><a href="/">Sign up now</a></li>
+          </ul>
+        </nav>
+      </div> <!-- .col-sm-6 -->
+      <div class="col-sm-3">
+        <p class="pull-right">&copy; 2018 James Edwards III</p>
+      </div> <!-- .col-sm-3 -->
+    </div> <!-- .container -->
+  </footer>
+
+
 
   <!-- BOOTSTRAP CORE JAVASCRIPT
   ========================================================================== -->

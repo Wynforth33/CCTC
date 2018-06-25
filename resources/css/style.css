@@ -9,7 +9,8 @@ black: rgb(17,17,17);
 white: rgb(255,255,255);
  */
 
-/* Universal Styles */
+/* Universal Styles
+   ========================================================================== */
 a {
   color: rgb(255,255,255);
 }
@@ -52,11 +53,29 @@ li.active a {
     color: white;
 }
 
-/* Header Section */
-.bg-primary {
+.overlay {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0,0,0,.25);
+}
+
+.bg-primary, .link, footer {
   background-color: rgb(40,69,98);
 }
 
+#about, #solutions, #contact {
+  background: url('../img/tile.jpg') top left repeat;
+}
+
+/* Layout */
+
+/* Main Window */
+
+  /* Header
+   ========================================================================== */
+
+    /* NavBar */
 a.navbar-brand {
   font-weight: bold;
   color: rgb(235,28,36);
@@ -66,8 +85,9 @@ a.navbar-brand {
   color: rgb(89, 201, 231);
 }
 
-/* Hero Section */
-#hero {
+  /* Hero-Alpha
+   ========================================================================== */
+#alpha {
   background: url('../img/hero-bg.jpeg') 50% 0 no-repeat fixed;
   background-size: cover;
   min-height: 805px;
@@ -76,22 +96,18 @@ a.navbar-brand {
   text-rendering: optimizeLegibility;
 }
 
-#hero .overlay {
-  display: flex;
-  align-items: center;
+#alpha .overlay {
   min-height: 805px;
-  width: 100%;
-  background-color: rgba(0,0,0,.25);
 }
 
-#hero .content {
+#alpha .content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-#hero img {
+#alpha img {
   padding: 10px;
   border: 1px solid black;
   border-radius: 100%;
@@ -102,43 +118,81 @@ a.navbar-brand {
   text-align: center;
 }
 
-/* Opt In Section */
-#opt-in {
-  background: #3e4249;
-  padding: 20px 0;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-size: 1.2em;
+  /* Services - Link
+   ========================================================================== */
+
+
+/* Main Content */
+
+  /* About Us
+   ========================================================================== */
+
+  /* About Us
+   ========================================================================== */
+
+  /* About Us
+   ========================================================================== */
+
+  /* About Us
+   ========================================================================== */
+
+  /* About Us
+   ========================================================================== */
+
+
+/* Footer  */
+
+  /* Newsletter - Link
+   ========================================================================== */
+
+    /* Modal */
+
+  /* Hero - Omega
+   ========================================================================== */
+#omega {
+ background-image: url('../img/hero-bg.jpeg');
+ background-size: cover;
+ min-height: 403px;
+ color: white;
+ -webkit-font-smoothing: antialiased;
+ text-rendering: optimizeLegibility;
+ align-items: center;
+ justify-content: center;
 }
 
-#opt-in p {
-  margin: 7px 0 0 0;
+#omega .overlay {
+  min-height: 403px;
 }
 
-/* 'SignUp' Section */
-#signup {
-  text-align: center;
-  background: url('../img/hero-bg.jpeg') center center repeat fixed;
-  background-size: cover;
-  color: white;
-  padding: 140px 0;
+#omega .container {
+  justify-content: center;
 }
 
-#signup h2 {
-  font-weight: normal;
+#omega .row {
+  justify-content: center;
 }
 
-#signup h2 strong {
-  border-bottom: solid 2px #dd5638;
+#omega .hero-text {
+  width: 100%;
 }
 
-#signup .btn {
-  font-size: 24px;
-}
+/* #omega .overlay {
+ display: flex;
+ align-items: center;
+ min-height: 403px;
+ width: 100%;
+ background-color: rgba(0,0,0,.25);
+} */
+
+  /* Footer
+   ========================================================================== */
 
 footer p {
   margin: 0;
+}
+
+footer p.pull-right {
+  color: white;
 }
 
 footer a:link, footer a:visited {
@@ -155,4 +209,8 @@ footer li.signup-link a {
 
 footer li.signup-link a:hover {
   font-weight: bold;
+}
+
+footer #brand {
+  color: rgb(235,28,36);
 }

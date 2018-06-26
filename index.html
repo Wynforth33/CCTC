@@ -97,13 +97,13 @@
       <div class="row flex">
 
         <!-- Call to Action Statement -->
-        <div class="col-sm-8">
-          <p class="lead">This is a call to Action statement, which will tell the user why they should click the button!</p>
+        <div class="col-sm-8 flex text">
+          <p class="lead">Know what you need? Head over to our Services Page.</p>
         </div><!-- .col-sm-8 -->
 
         <!-- Link Button -->
-        <div class="col-sm-4">
-          <a class="btn btn-success btn-lg btn-block" href="/">Link to Services Page!</a>
+        <div class="col-sm-4 button">
+          <a class="btn btn-success btn-lg btn-block" href="/">Take Me There!</a>
         </div><!-- .col-sm-4 -->
 
       </div><!-- .row -->
@@ -128,10 +128,12 @@
       <!-- Content -->
       <div class="row">
         <div class="col-sm-6">
+          <h4>One Big thing about us</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam, nesciunt dignissimos ipsam suscipit perferendis minima vero excepturi sed vel, dolore necessitatibus corrupti repellendus soluta cum repellat adipisci repudiandae. Quis!</p>
         </div><!-- .col-sm-6 -->
 
         <div class="col-sm-6">
+          <h4>Another Big thing about us</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aperiam, nesciunt dignissimos ipsam suscipit perferendis minima vero excepturi sed vel, dolore necessitatibus corrupti repellendus soluta cum repellat adipisci repudiandae. Quis!</p>
         </div><!-- .col-sm-6 -->
       </div><!-- .row -->
@@ -158,25 +160,25 @@
         <!-- feature -->
         <div class="col-sm-3 feature">
           <img src="./resources/img/tools.svg" alt="Icon of two tools" />
-          <h3>Outstanding Service</h3>
+          <h4>Outstanding Service</h4>
         </div>
 
         <!-- feature -->
         <div class="col-sm-3 feature">
           <img src="./resources/img/chart.svg" alt="Icon of A Growth Chart" />
-          <h3>Grow Your Business</h3>
+          <h4>Grow Your Business</h4>
         </div>
 
         <!-- feature -->
         <div class="col-sm-3 feature">
           <img src="./resources/img/phone.svg" alt="Icon of a phone" />
-          <h3>24/7 Help Desk</h3>
+          <h4>24/7 Help Desk</h4>
         </div>
 
         <!-- feature -->
         <div class="col-sm-3 feature">
           <img src="./resources/img/pricetag.svg" alt="Icon of a Price Tag" />
-          <h3>No Hidden Costs</h3>
+          <h4>No Hidden Costs</h4>
         </div>
 
       </div>
@@ -237,18 +239,75 @@
 
       <!-- Header -->
       <div class="section-header">
-        <h3>Business Hours</h3>
+        <h3>Business Information</h3>
         <p class="lead">This Sections Presents our Business Hours</p>
         <hr />
       </div>
 
       <!-- Content - Hours / Phone # -->
-      <div class="info flex">
-        <div class="hours">
-          Our Business hours
+      <div class="row flex" id="info">
+        <div class="col-sm-6 hours">
+          <!-- Days -->
+          <div class="flex days">
+            <!-- Day -->
+            <div class="flex-column day">
+              <h5>MON</h5>
+              <hr />
+              <p>
+                9:00am - 5:00pm
+              </p>
+            </div>
+            <div class="flex-column day">
+              <h5>TUE</h5>
+              <hr />
+              <p>
+                9:00am - 5:00pm
+              </p>
+            </div>
+            <div class="flex-column day">
+              <h5>WED</h5>
+              <hr />
+              <p>
+                9:00am - 5:00pm
+              </p>
+            </div>
+            <div class="flex-column day">
+              <h5>THU</h5>
+              <hr />
+              <p>
+                9:00am - 5:00pm
+              </p>
+            </div>
+            <div class="flex-column day">
+              <h5>FRI</h5>
+              <hr />
+              <p>
+                9:00am - 5:00pm
+              </p>
+            </div>
+            <div class="flex-column day">
+              <h5>SAT</h5>
+              <hr />
+              <p>
+                Closed
+              </p>
+            </div>
+            <div class="flex-column day">
+              <h5>SUN</h5>
+              <hr />
+              <p>
+                Closed
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="phone">
-          Our Phone/Email Information
+        <div class="col-sm-6 phone flex">
+          <div class="flex">
+            <img src="./resources/img/phone.svg" alt="Icon of a phone">
+            <p>
+              +1 952-444-2191
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -327,13 +386,13 @@
 
         <!-- Call to Action Statement  -->
         <div class="col-sm-8 flex text">
-          <p class="lead">This is a call to Action statement, which will tell the user why they should click the button!</p>
+          <p class="lead">Join our newsletter to keep up with all the new CCTC news</p>
         </div> <!-- .col-sm-8 -->
 
         <!-- Link Button  -->
-        <div class="col-sm-4">
+        <div class="col-sm-4 button">
           <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-            Link to Modal - Newsletter Signup.
+            Sign me up!
           </button>
         </div> <!-- .col-sm-4 -->
 
